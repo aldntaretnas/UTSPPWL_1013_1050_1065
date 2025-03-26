@@ -9,7 +9,7 @@ class MerekController extends Controller
 {
     public function index()
     {
-        $brands = Brand::all();
-        return response(view('brand', ['brands' => $brands]));
+        $merek2 = Merek::all();
+        return response(view('merek', ['merek2' => $merek2]));
     }
 }
